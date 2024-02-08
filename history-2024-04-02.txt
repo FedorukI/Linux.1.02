@@ -1,0 +1,42 @@
+   0 date >> newfile.txt#
+   1 rm newfile.txt\# 
+   2 date >> newfile.txt
+   3 cat newfile.txt 
+   4 mkdir -p /tmp/hw3/illia
+   5 echo "Homework3" >> newfile.txt 
+   6 cat newfile.txt 
+   7 tree /tmp/
+   8 df -h / >> newfile.txt 
+   9 cat newfile.txt 
+  10 history | tail -n 5 >> newfile.txt 
+  11 cat newfile.txt 
+  12 cat /proc/cpuinfo | grep vendor | sort -u >> newfile.txt
+  13 cat newfile.txt 
+  14 vi newfile.txt 
+  15 cat newfile.txt 
+  16 ps aux | wc -l >> newfile.txt
+  17 cat newfile.txt 
+  18 mv newfile.txt /tmp/hw3/illia/file.txt
+  19 tree /tmp/
+  20 ls -la
+  21 ls /tmp/
+  22 ls -l
+  23 echo "какой старый файл?"
+  24 ps -ef | wc -l >> file.txt
+  25 cat file.txt 
+  26 tree /tmp/
+  27 cat file.txt 
+  28 vi file.txt 
+  29 history
+  30 touch file2.txt 
+  31 date >> file2.txt
+  32 cat file2.txt 
+  33 mv file2.txt /tmp/
+  34 ps -ef | wc -l >> file2.txt
+  35 cat file2.txt 
+  36 mv file2.txt /tmp/hw3/illia/
+  37 tree /tmp/
+  38 cat file2.txt
+  39 cat /tmp/hw3/illia/file2.txt
+  40 history 
+  41 history >> history-2024-04-02.txt
